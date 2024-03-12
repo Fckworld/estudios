@@ -3,6 +3,7 @@ export function App() {
     const API_URL_FACT = "https://catfact.ninja/fact"
     const API_URL_IMAGE = 'https://cataas.com/cat/says/${firstWord}?fontSize=50&fontColor=red'
 
+    
     const [fact, setFact] = useState()
 
     useEffect(() => {
